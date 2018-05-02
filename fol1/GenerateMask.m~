@@ -15,7 +15,5 @@ function [mask]=GenerateMask(maskIn,thre)
     end
     finalIndex=CC{indxMax};
     mask=zeros(size(maskIn));
-    mask(finalIndex)=1;  
-this is avaz shode
-hhaaa      
+    mask(finalIndex)=1;        
  end
